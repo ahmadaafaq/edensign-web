@@ -1,0 +1,288 @@
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 2s;
+    animation-name: animate;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes animate {
+    0% {
+        background-image: url("https://images.unsplash.com/photo-1562887245-f2d5024f6134");
+    }
+    25% {
+        background-image: url("https://images.unsplash.com/photo-1598452963314-b09f397a5c48");
+    }
+    50% {
+        background-image: url("https://images.unsplash.com/photo-1643185539104-3622eb1f0ff6");
+    }
+    75% {
+        background-image: url("https://images.unsplash.com/photo-1590736704728-f4730bb30770");
+    }
+    100% {
+        background-image: url("https://images.unsplash.com/photo-1562887245-f2d5024f6134");
+    }
+  }
+
+
+.list:hover {
+    border-bottom: 1px solid grey;
+}
+
+
+#makeup-img {
+    width: 650px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+#makeup-para {
+    color: white;
+    margin: -450px 10px 10px 410px;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+
+#makeup-heading {
+    color: white;
+    margin-left: 260px;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+
+#makeup-img2 {
+    width: 689px;
+    height: 500px;
+    object-fit: clip;
+}
+
+
+#makeup-para2 {
+    color: white;
+    margin: -390px 10px 10px 30px;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+
+#makeup-heading2 {
+    color: white;
+    margin: 70px 10px 10px 40px;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+
+#makeup-img3 {
+    margin-left: -23px;
+    width: 458px;
+    height: 480px;
+    object-fit: cover;
+}
+
+
+#makeup-para3 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+
+.makeup-heading3 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+
+.makeup-para4 {
+    padding: 10px 20px;
+    line-height: 1.5em;
+}
+
+
+#about-img {
+    margin-left: -24px;
+    width: 460px;
+    height: 520px;
+    object-fit: cover;
+}
+
+
+.about-para1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+
+.about-para2 {
+    font-size: 46px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+
+.about-para3 {
+    padding: 10px 20px;
+    line-height: 1.5em;
+}
+
+
+
+/* Slideshow */
+
+.slideshow {
+    overflow: hidden;
+    max-width: 690px;
+  }
+  
+  .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+  }
+  
+  .slide {
+    display: inline-block;
+    height: 100px;
+    width: 590px;
+    border-radius: 40px;
+    padding: 40px;
+  }
+  
+  /* Buttons */
+  
+  .slideshowDots {
+    text-align: center;
+  }
+  
+  .slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  
+    cursor: pointer;
+    margin: 15px 7px 0px;
+  
+    background-color: #c4c4c4;
+  }
+  
+  .slideshowDot.active {
+    background-color: #6a0dad;
+  }
+
+
+.react-slideshow-wrapper.slide {
+    height: 490px;
+}
+
+
+button.nav.default-nav {
+    height: 80px;
+    width: 80px;
+}
+
+
+.body-boxes3-headings {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.body-boxes3-images {
+    width: 455px;
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(100%);
+}
+
+
+.body-boxes3-images:hover {
+    filter: brightness(60%);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+
+.newsletter-image {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.react-slideshow-container {
+    width: 35vw;
+    margin: auto;
+}
+
+
+.footer-box {
+    width: 100%;
+    height: 51.2vh;
+    background: linear-gradient(45deg, grey, black);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.all-products-grid-container {
+    position: relative;
+    left: 26%;
+    justify-content: center;
+    padding-top: 6%;
+}
+
+
+.paginationBtns {
+    padding-top: 40px;
+    width: 96%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBtns a {
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #2b2eff;
+    border-radius: 6px;
+    color: #2b2eff;
+    outline: none;
+    cursor: pointer;
+}
+
+.paginationBtns a:hover {
+    color: white;
+    background-color: #2b2eff;
+}
+
+.paginationAct a {
+    color: white;
+    background-color: #2b2eff;
+}
+
+
