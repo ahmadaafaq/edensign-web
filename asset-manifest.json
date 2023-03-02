@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/edensign-web/static/css/main.e8fd7533.css",
+    "main.js": "/edensign-web/static/js/main.33364839.js",
+    "static/media/face.png": "/edensign-web/static/media/face.3cdc6872464278055222.png",
+    "static/media/lips.png": "/edensign-web/static/media/lips.00367e0b7060ea43dd77.png",
+    "static/media/subscribe.png": "/edensign-web/static/media/subscribe.c53d6c11bb03509844aa.png",
+    "static/media/eyes.png": "/edensign-web/static/media/eyes.49fe4bba144263a6daf9.png",
+    "static/media/makeup-brush3-nobg.png": "/edensign-web/static/media/makeup-brush3-nobg.fb4f8d28e5008765899c.png",
+    "static/media/makeup-lady-nobg.png": "/edensign-web/static/media/makeup-lady-nobg.ce8c71ce11d592ef24dd.png",
+    "static/media/lady2-nobg.png": "/edensign-web/static/media/lady2-nobg.97adb0e015a0cde4637d.png",
+    "static/media/lady-nobg.png": "/edensign-web/static/media/lady-nobg.74e9e16f739185a32111.png",
+    "static/media/makeup-brushes2.png": "/edensign-web/static/media/makeup-brushes2.4e6307233f576878bf9c.png",
+    "index.html": "/edensign-web/index.html",
+    "main.e8fd7533.css.map": "/edensign-web/static/css/main.e8fd7533.css.map",
+    "main.33364839.js.map": "/edensign-web/static/js/main.33364839.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8fd7533.css",
+    "static/js/main.33364839.js"
+  ]
+}
