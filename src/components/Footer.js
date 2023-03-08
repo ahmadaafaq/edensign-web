@@ -16,7 +16,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 function Footer() {
     return (
-        <Box sx={{backgroundColor:"#F8C8DC", paddingTop:"50px"}}>
+        <Box sx={{backgroundColor:"#F8C8DC"}}>
             <Box className="footer-box">
               <List component='nav' sx={{ display:"inline-flex", color:"white", alignItems:"flex-start"}}>
                   <ListItemButton className="list">

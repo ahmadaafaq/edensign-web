@@ -1,0 +1,54 @@
+
+.salon-card:hover {
+    transform: scale(1.1);
+}
+
+#makeup-img3 {
+    border-radius: 20px;
+    margin-left: -12px;
+    height: 70vh;
+    filter: brightness(100%);
+    transition: all .5s ease-in-out,
+}
+
+
+#makeup-para3 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+
+.makeup-heading3 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+
+.makeup-para4 {
+    padding: 10px 20px;
+    line-height: 1.5em;
+}
+
+
+#appointment-btn {
+    background: transparent;
+    font-family: Roboto;
+    font-size: 1.5em;
+    color: #fff;
+    border: 1px solid hsl(0, 0%, 80%);
+    width: 47.5%;
+}
+
+#appointment-btn:hover {
+    border-color: greenyellow;
+    color: greenyellow;
+}
+
+
+
+
+
+

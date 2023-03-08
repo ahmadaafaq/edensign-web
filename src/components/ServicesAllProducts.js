@@ -68,6 +68,7 @@ function ServicesAllProducts() {
           }
         </Grid>
           <ReactPaginate
+          sx={{pb:6}}
           previousLabel={"Previous"}
           nextLabel={"Next"}
           pageCount={pageCount}

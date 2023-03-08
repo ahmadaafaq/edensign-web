@@ -21,7 +21,7 @@ function BodyProductList() {
     return function(dispatch) {
       const options = {
           method: 'GET',
-          url: 'https://sephora.p.rapidapi.com/products/list',
+          url: 'htt://sephora.p.rapidapi.com/products/list',
           params: {categoryId: 'cat150006', pageSize: '60', currentPage: '1'},
           headers: {
             'X-RapidAPI-Key': 'c59e8cfe81msh6ab285a929bb127p16defdjsna8e04566d952',

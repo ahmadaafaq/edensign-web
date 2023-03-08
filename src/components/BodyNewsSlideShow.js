@@ -41,7 +41,7 @@ export default function BodyNewsSlideShow() {
   
 
     return (
-      <Box sx={{pt:10, width: "100%", backgroundColor:"#F8C8DC"}}>
+      <Box sx={{pt:10, pb:10, width: "100%", backgroundColor:"#F8C8DC"}}>
         <p className='about-para1' style={{textAlign:"center"}}> our latest </p>
         <DiamondIcon sx={{display:"block", margin:"auto"}} />
         <p className='about-para2' style={{textAlign:"center"}}> news </p>
@@ -51,7 +51,7 @@ export default function BodyNewsSlideShow() {
             const {source, title, url, urlToImage } = article;
             return (
               <Container key={url}>
-              <Card sx={{ maxWidth: 350, height: "560px" }}>
+              <Card sx={{ maxWidth: 350, height: "560px", ml:2 }}>
               <Chip label={source.name} sx={{float: "right", backgroundColor: '#EE82EE', color: "white", fontWeight: "bold"}} />
               <CardMedia
                 sx={{ height: 240 }}
