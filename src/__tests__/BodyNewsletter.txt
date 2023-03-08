@@ -1,0 +1,14 @@
+import { render, screen, cleanup } from "@testing-library/react";
+import BodyNewsletter from "../components/BodyNewsletter";
+
+afterEach(() => {
+    cleanup();
+})
+
+describe("Test the News Letter Component in the Body", () => {
+    render(<BodyNewsletter />);
+    const button = screen.findByRole("button");
+    test("render newsletter with a button", () => {
+        expect(button).toBeInTheDocument();
+    })
+})
