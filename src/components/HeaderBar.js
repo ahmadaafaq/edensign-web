@@ -19,7 +19,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 
-const pages = ['About', 'Services', 'Privacy Policy', 'Contact'];
+const pages = ['About', 'Services', 'Salons', 'Privacy Policy'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function HeaderBar(props) {
